@@ -4,16 +4,16 @@ const productoAgregado = []
 
 // CREO ARRAY PRODUCTOS
 const productos = [
-    { id: 0, categoria: 'Calzado', titulo: 'Alpargatas Animal Print', precio: 2200, stock: 0, img: "/assets/images/calzado/alpargatas__animal__01.jpg" },
-    { id: 1, categoria: 'Calzado', titulo: 'Alpargatas Azul', precio: 1750, stock: 10, img: "/assets/images/calzado/alpargatas__azules__01.jpg" },
-    { id: 2, categoria: 'Cuchillos', titulo: 'Cuchillo Criollo', precio: 1400, stock: 5, img: "/assets/images/cuchillos/cuchillos__01.jpg" },
-    { id: 3, categoria: 'Cuchillos', titulo: 'Cuchillo La Mission', precio: 800, stock: 20, img: "/assets/images/cuchillos/cuchillos__02.jpg" },
-    { id: 4, categoria: 'Bolsos', titulo: 'Chuna Autobag', precio: 2200, stock: 0, img: "/assets/images/mate/verticales/autobag__chuna__01.jpg" },
-    { id: 5, categoria: 'Bolsos', titulo: 'Bolso Matero Chuna Amarillo', precio: 2200, stock: 0, img: "/assets/images/mate/verticales/bolso__chuna__amarillo.jpg" },
-    { id: 6, categoria: 'Mates', titulo: 'Mates Chuna', precio: 2200, stock: 15, img: "/assets/images/mate/verticales/mates__chuna__01.jpg" },
-    { id: 7, categoria: 'Mates', titulo: 'Mates Jarrito', precio: 2000, stock: 20, img: "/assets/images/mate/verticales/mates__jarrito__06.jpg" },
-    { id: 8, categoria: 'Accesorios Calzado', titulo: 'Plantillas Corderito', precio: 200, stock: 0, img: "/assets/images/plantillas/plantillas__01.jpg" },
-    { id: 9, categoria: 'Accesorios Calzado', titulo: 'Plantillas Ortopedicas', precio: 220, stock: 80, img: "/assets/images/plantillas/plantillas__03.jpg" },
+    { id: 0, categoria: 'Calzado', titulo: 'Alpargatas Animal Print', precio: 2200, stock: 0, img: "../assets/images/calzado/alpargatas__animal__01.jpg" },
+    { id: 1, categoria: 'Calzado', titulo: 'Alpargatas Azul', precio: 1750, stock: 10, img: "../assets/images/calzado/alpargatas__azules__01.jpg" },
+    { id: 2, categoria: 'Cuchillos', titulo: 'Cuchillo Criollo', precio: 1400, stock: 5, img: "../assets/images/cuchillos/cuchillos__01.jpg" },
+    { id: 3, categoria: 'Cuchillos', titulo: 'Cuchillo La Mission', precio: 800, stock: 20, img: "../assets/images/cuchillos/cuchillos__02.jpg" },
+    { id: 4, categoria: 'Bolsos', titulo: 'Chuna Autobag', precio: 2200, stock: 0, img: "../assets/images/mate/verticales/autobag__chuna__01.jpg" },
+    { id: 5, categoria: 'Bolsos', titulo: 'Bolso Matero Chuna Amarillo', precio: 2200, stock: 0, img: "../assets/images/mate/verticales/bolso__chuna__amarillo.jpg" },
+    { id: 6, categoria: 'Mates', titulo: 'Mates Chuna', precio: 2200, stock: 15, img: "../assets/images/mate/verticales/mates__chuna__01.jpg" },
+    { id: 7, categoria: 'Mates', titulo: 'Mates Jarrito', precio: 2000, stock: 20, img: "../assets/images/mate/verticales/mates__jarrito__06.jpg" },
+    { id: 8, categoria: 'Accesorios Calzado', titulo: 'Plantillas Corderito', precio: 200, stock: 0, img: "../assets/images/plantillas/plantillas__01.jpg" },
+    { id: 9, categoria: 'Accesorios Calzado', titulo: 'Plantillas Ortopedicas', precio: 220, stock: 80, img: "../assets/images/plantillas/plantillas__03.jpg" },
 ];
 
 const agregarAlCarrito = (idProducto) => {
